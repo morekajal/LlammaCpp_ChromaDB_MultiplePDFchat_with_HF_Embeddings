@@ -8,4 +8,7 @@
   - Along with Local Chroma Vector Database to store the embeddings and
   - Retrieved the query embeddings from the same vectorDB.
 
-
+3. app2.py:
+   - Build a end-to-end streamlit application using langchain's RecursiveCharacterTextSplitter, Chroma vectorDB, HuggingFaceBgeEmbeddings
+   - Used chains.question_answering to set the question-answering chain with 'stuff' chain type
+     
